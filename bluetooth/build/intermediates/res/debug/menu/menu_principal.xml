@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/menuTensao"
+        android:title="Tensão da bateria"
+        android:icon="@drawable/ic_action_tensao"
+        android:showAsAction="ifRoom"
+        />
+    
+    <item 
+        android:id="@+id/menuTemperatura"
+        android:icon="@drawable/ic_action_temp_ambiente"
+        android:title="Temperatura"
+        android:showAsAction="ifRoom"
+        />
+    
+       <item 
+        android:id="@+id/menuTemperatura_agua"
+        android:icon="@drawable/ic_action_temperatura_agua"
+        android:title="Temperatura"
+        android:showAsAction="ifRoom"
+        />
+
+</menu>
+<!-- From: file:/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/src/main/res/menu/menu_principal.xml -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-6182fc45e3443ab37b5447a04aa6e14dad6d8c46.jar" />
+    </item>
+    <item
+        jar="/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/build/intermediates/pre-dexed/debug/classes-190660ff989564352853a8540af0999ad283c692.jar" />
+    </item>
+    <item
+        jar="/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/libs/GraphView-3.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="672e4a5d8906ab21665dcc08c1f7edb6efd6f903">
+        <dex dex="/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/build/intermediates/pre-dexed/debug/GraphView-3.1.3-b793585eaf8a68911bf46a8cdc1425540b2fa344.jar" />
+    </item>
+    <item
+        jar="/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/build/intermediates/pre-dexed/debug/classes-34a2521763b7e4d94e4c94b4e980c41b44923f86.jar" />
+    </item>
+    <item
+        jar="/home/anderson/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-3e78bc85e1942d6d4915e781620f51be53b4227f.jar" />
+    </item>
+    <item
+        jar="/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/build/intermediates/exploded-aar/BluetoothStudio/iSPBluetoothServiceLib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95fbcdb1b5a94bc2e9ea9ef1791dcbddda595624">
+        <dex dex="/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/build/intermediates/pre-dexed/debug/classes-ff9c5a0f3b21b2c57f0ce0beb25fee62be2a0b90.jar" />
+    </item>
+
+</items>

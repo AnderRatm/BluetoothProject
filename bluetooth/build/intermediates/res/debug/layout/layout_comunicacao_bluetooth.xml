@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#e3e3e3"
+    android:layerType="hardware" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="445dp" >
+	    
+	    <RelativeLayout
+	        android:id="@+id/relativeLayoutEquipamento"
+	        android:layout_width="match_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+	        android:layout_marginTop="5dp"
+	        android:background="@drawable/selector_layout" >
+	        
+	        <TextView
+	            android:id="@+id/textViewLineCardEquipamento"
+	            style="?android:attr/listSeparatorTextViewStyle"
+	            android:layout_width="match_parent"
+	            android:layout_height="1dp"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginRight="5dp"
+	            android:layout_marginTop="5dp"
+	            android:background="#ffb5b5b5"
+	            android:gravity="center_horizontal"
+	            android:paddingTop="5dp" />
+	        
+	        <ImageView
+	            android:id="@+id/imageViewEquipamento"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_below="@id/textViewLineCardEquipamento"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginTop="5dp"
+	            android:scaleType="center" />
+
+	        <EditText
+	            android:id="@+id/Receiver"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:layout_alignLeft="@+id/imageViewEquipamento"
+	            android:layout_alignTop="@+id/imageViewEquipamento"
+	            android:layout_below="@+id/txvTemp"
+	            android:layout_marginTop="47dp"
+	            android:layout_toLeftOf="@+id/txvTemp"
+	            android:ems="10" >
+	           
+	        </EditText>
+
+	        <TextView
+	            android:id="@+id/textView2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignTop="@+id/textViewLineCardEquipamento"
+	            android:text="Tempo:"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	        <TextView
+	            android:id="@+id/TextView01"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignRight="@+id/textViewLineCardEquipamento"
+	            android:layout_below="@+id/textViewLineCardEquipamento"
+	            android:layout_marginRight="21dp"
+	            android:text="Contagem:"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	        <TextView
+	            android:id="@+id/TxvCont"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@+id/TextView01"
+	            android:layout_below="@+id/TextView01"
+	            android:layout_marginTop="16dp"
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:text="Recebido:" />
+
+	        <TextView
+	            android:id="@+id/txvTemp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBaseline="@+id/TxvCont"
+	            android:layout_alignBottom="@+id/TxvCont"
+	            android:layout_alignParentLeft="true"
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:text="Recebido:" />
+	        
+	    </RelativeLayout>
+
+	    <Button
+	        android:id="@+id/enviar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:text="Apagar Dados" />
+
+	    <Button
+	        android:id="@+id/ping"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_toRightOf="@+id/enviar"
+	        android:text="Iniciar" />
+
+	    <EditText
+	        android:id="@+id/TxvTempo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/relativeLayoutEquipamento"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/relativeLayoutEquipamento"
+	        android:layout_marginTop="70dp"
+	        android:ems="10"
+	        android:focusableInTouchMode="true"
+	        android:hint="Informe o tempo de contagem"
+	        android:inputType="time" >
+
+	        <requestFocus />
+	    </EditText>
+        
+    </RelativeLayout>
+
+</ScrollView>
+<!-- From: file:/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/src/main/res/layout/layout_comunicacao_bluetooth.xml -->

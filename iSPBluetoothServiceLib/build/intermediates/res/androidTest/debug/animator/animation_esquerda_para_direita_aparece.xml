@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <translate 
+        android:duration="500"
+        android:fromXDelta="-100%"
+        android:toXDelta="0"
+        />
+
+</set>
+<!-- From: file:/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/iSPBluetoothServiceLib/src/main/res/animator/animation_esquerda_para_direita_aparece.xml --><!-- From: file:/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/iSPBluetoothServiceLib/build/intermediates/bundles/debug/res/animator/animation_esquerda_para_direita_aparece.xml -->

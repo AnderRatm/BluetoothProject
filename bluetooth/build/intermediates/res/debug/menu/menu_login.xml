@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/menuLoginConfiguracoes"
+        android:title="Configurações"
+        android:showAsAction="never"
+        />
+
+</menu>
+<!-- From: file:/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/src/main/res/menu/menu_login.xml -->

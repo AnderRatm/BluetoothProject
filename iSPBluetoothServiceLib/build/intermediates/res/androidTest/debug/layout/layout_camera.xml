@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SurfaceView 
+        android:id="@+id/surfaceViewCamera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</RelativeLayout>
+<!-- From: file:/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/iSPBluetoothServiceLib/src/main/res/layout/layout_camera.xml --><!-- From: file:/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/iSPBluetoothServiceLib/build/intermediates/bundles/debug/res/layout/layout_camera.xml -->

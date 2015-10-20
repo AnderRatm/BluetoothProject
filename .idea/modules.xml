@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BluetoothStudio.iml" filepath="$PROJECT_DIR$/BluetoothStudio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluetooth/bluetooth.iml" filepath="$PROJECT_DIR$/bluetooth/bluetooth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iSPBluetoothServiceLib/iSPBluetoothServiceLib.iml" filepath="$PROJECT_DIR$/iSPBluetoothServiceLib/iSPBluetoothServiceLib.iml" />
+    </modules>
+  </component>
+</project>

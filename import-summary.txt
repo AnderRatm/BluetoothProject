@@ -1,0 +1,158 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Bluetooth:
+* META-INF/
+* META-INF/MANIFEST.MF
+* ic_background-web.png
+* ic_launcher-web.png
+* ic_profundedade-web.png
+* org/
+* org/achartengine/
+* org/achartengine/ChartFactory.class
+* org/achartengine/GraphicalActivity.class
+* org/achartengine/GraphicalView$1.class
+* org/achartengine/GraphicalView$2.class
+* org/achartengine/GraphicalView.class
+* org/achartengine/ITouchHandler.class
+* org/achartengine/TouchHandler.class
+* org/achartengine/TouchHandlerOld.class
+* org/achartengine/chart/
+* org/achartengine/chart/AbstractChart.class
+* org/achartengine/chart/BarChart$Type.class
+* org/achartengine/chart/BarChart.class
+* org/achartengine/chart/BubbleChart.class
+* org/achartengine/chart/ClickableArea.class
+* org/achartengine/chart/CombinedXYChart.class
+* org/achartengine/chart/CubicLineChart.class
+* org/achartengine/chart/DialChart.class
+* org/achartengine/chart/DoughnutChart.class
+* org/achartengine/chart/LineChart$1.class
+* org/achartengine/chart/LineChart.class
+* org/achartengine/chart/PieChart.class
+* org/achartengine/chart/PieMapper.class
+* org/achartengine/chart/PieSegment.class
+* org/achartengine/chart/PointStyle.class
+* org/achartengine/chart/RangeBarChart.class
+* org/achartengine/chart/RangeStackedBarChart.class
+* org/achartengine/chart/RoundChart.class
+* org/achartengine/chart/ScatterChart$1.class
+* org/achartengine/chart/ScatterChart.class
+* org/achartengine/chart/TimeChart.class
+* org/achartengine/chart/XYChart.class
+* org/achartengine/image/
+* org/achartengine/image/zoom-1.png
+* org/achartengine/image/zoom_in.png
+* org/achartengine/image/zoom_out.png
+* org/achartengine/model/
+* org/achartengine/model/CategorySeries.class
+* org/achartengine/model/MultipleCategorySeries.class
+* org/achartengine/model/Point.class
+* org/achartengine/model/RangeCategorySeries.class
+* org/achartengine/model/SeriesSelection.class
+* org/achartengine/model/TimeSeries.class
+* org/achartengine/model/XYMultipleSeriesDataset.class
+* org/achartengine/model/XYSeries.class
+* org/achartengine/model/XYValueSeries.class
+* org/achartengine/renderer/
+* org/achartengine/renderer/BasicStroke.class
+* org/achartengine/renderer/DefaultRenderer.class
+* org/achartengine/renderer/DialRenderer$Type.class
+* org/achartengine/renderer/DialRenderer.class
+* org/achartengine/renderer/SimpleSeriesRenderer.class
+* org/achartengine/renderer/XYMultipleSeriesRenderer$Orientation.class
+* org/achartengine/renderer/XYMultipleSeriesRenderer.class
+* org/achartengine/renderer/XYSeriesRenderer$FillOutsideLine$Type.class
+* org/achartengine/renderer/XYSeriesRenderer$FillOutsideLine.class
+* org/achartengine/renderer/XYSeriesRenderer.class
+* org/achartengine/tools/
+* org/achartengine/tools/AbstractTool.class
+* org/achartengine/tools/FitZoom.class
+* org/achartengine/tools/Pan.class
+* org/achartengine/tools/PanListener.class
+* org/achartengine/tools/Zoom.class
+* org/achartengine/tools/ZoomEvent.class
+* org/achartengine/tools/ZoomListener.class
+* org/achartengine/util/
+* org/achartengine/util/IndexXYMap.class
+* org/achartengine/util/MathHelper.class
+* org/achartengine/util/XYEntry.class
+* proguard-project.txt
+From ISPBluetoothServiceLib:
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/libraries/
+* .idea/libraries/ispbluetoothservicelib.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* ISPBluetoothServiceLib.iml
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In ISPBluetoothServiceLib:
+* AndroidManifest.xml => iSPBluetoothServiceLib/src/main/AndroidManifest.xml
+* assets/ => iSPBluetoothServiceLib/src/main/assets/
+* res/ => iSPBluetoothServiceLib/src/main/res/
+* src/ => iSPBluetoothServiceLib/src/main/java/
+In Bluetooth:
+* AndroidManifest.xml => bluetooth/src/main/AndroidManifest.xml
+* assets/ => bluetooth/src/main/assets/
+* libs/GraphView-3.1.3.jar => bluetooth/libs/GraphView-3.1.3.jar
+* lint.xml => bluetooth/lint.xml
+* res/ => bluetooth/src/main/res/
+* src/ => bluetooth/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

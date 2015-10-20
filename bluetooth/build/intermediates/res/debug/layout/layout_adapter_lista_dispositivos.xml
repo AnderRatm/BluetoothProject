@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/selector_gridview"
+        >
+
+        <TextView 
+            android:id="@+id/textViewAdapterNomeDispositivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            style="@style/CardTitle"
+            android:text="Nome dispositivo"
+            />
+        
+        <TextView 
+            android:id="@+id/textViewAdapterMacDispositivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/textViewAdapterNomeDispositivo"
+            style="@style/CardText"
+            android:text="Mac dispositivo"
+            />
+        
+    </RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/src/main/res/layout/layout_adapter_lista_dispositivos.xml -->

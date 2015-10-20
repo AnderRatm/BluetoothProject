@@ -1,0 +1,40 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Material">
+        -->
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- Estilo para os textos dos cards -->
+    <style name="CardText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff8d8d8d</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    
+    <style name="CardLightText" parent="@style/CardText">
+        <item name="android:textColor">#ffb5b5b5</item>
+    </style>
+    
+    <style name="CardTitle" parent="@style/CardText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">#ff707070</item>
+    </style>
+    
+</resources>

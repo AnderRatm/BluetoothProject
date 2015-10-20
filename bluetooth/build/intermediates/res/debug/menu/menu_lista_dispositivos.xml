@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/menuAtualizar"
+        android:title="Atualizar"
+        android:icon="@drawable/icon_refresh"
+        android:showAsAction="ifRoom"
+        />
+
+</menu>
+<!-- From: file:/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/src/main/res/menu/menu_lista_dispositivos.xml -->

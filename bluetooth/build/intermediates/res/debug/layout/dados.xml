@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layerType="hardware" >
+
+    <Button
+        android:id="@+id/Largura_avancar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:alpha=".7"
+        android:background="#BEBEBE"
+        android:text="Avançar"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="19dp"
+        android:text="Selecione a largura do rio:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Largura_avancar"
+        android:layout_below="@+id/EditDistanciaVerticais"
+        android:layout_marginTop="21dp"
+        android:text="Alterar valor" />
+
+    <EditText
+        android:id="@+id/EditLarguraRio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Informe a largura do rio"
+        android:inputType="number|numberSigned" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/EditLarguraRio"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:text="Distância entre as verticais:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/EditDistanciaVerticais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/Largura_avancar"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Valor recomendado entre as verticais"
+        android:inputType="number|numberSigned|numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout><!-- From: file:/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/bluetooth/src/main/res/layout/dados.xml -->

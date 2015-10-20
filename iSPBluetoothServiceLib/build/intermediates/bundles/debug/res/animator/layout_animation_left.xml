@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:delay="0.0"
+	android:animationOrder="random"
+	android:animation="@animator/animation_left"    
+    />
+<!-- From: file:/home/anderson/Dropbox/S.I/Android/BluetoothStudio/BluetoothStudio/iSPBluetoothServiceLib/src/main/res/animator/layout_animation_left.xml -->

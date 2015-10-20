@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e3e3"
+    android:layerType="hardware"
+    >
+
+    <GridView 
+        android:id="@+id/gridViewPacientes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:verticalSpacing="5dp"
+        />
+
+    <Button
+        android:id="@+id/Largura_avancar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gridViewPacientes"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="92dp"
+        android:text="Button" />
+
+</RelativeLayout>
